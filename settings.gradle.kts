@@ -18,6 +18,5 @@ include(
     "fixture",
     "fixture-javafaker",
     "fixture-kotest",
-    "fixture-generex",
-    "fixture-android-tests"
+    "fixture-generex"
 )

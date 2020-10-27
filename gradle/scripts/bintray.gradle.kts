@@ -44,7 +44,7 @@ if (project.plugins.hasPlugin("java")) {
 
 val publishVersion =
     System.getenv("CIRCLE_TAG") ?: System.getProperty("CIRCLE_TAG") ?: System.getenv("TRAVIS_TAG")
-    ?: System.getProperty("TRAVIS_TAG") ?: "unknown"
+    ?: System.getProperty("TRAVIS_TAG") ?: "0.9.6"
 
 afterEvaluate {
     configure<PublishingExtension> {
@@ -74,6 +74,13 @@ afterEvaluate {
 
                     name.set(project.name)
                     url.set("https://github.com/appmattus/kotlinfixture")
+                }
+            }
+        }
+        repositories {
+            repositories {
+                maven {
+                    url = uri("$rootDir/maven-repo")
                 }
             }
         }

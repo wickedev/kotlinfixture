@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.appmattus.fixture",
+    "module": "fixture-generex",
+    "version": "0.9.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "zpzuut5mkbbkvgfvmikgq2dfdq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "com.appmattus.fixture",
+          "module": "fixture",
+          "version": {
+            "requires": "0.9.6"
+          }
+        },
+        {
+          "group": "com.github.mifmif",
+          "module": "generex",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fixture-generex-0.9.6.jar",
+          "url": "fixture-generex-0.9.6.jar",
+          "size": 2330,
+          "sha512": "ddda9062ec85b48580bab1c8c2712032477eaeb7902a8396d0595fac1502f8b3e187865002722f821549e282bf842845cc7a64c9ce126ead61154b12720ef7ca",
+          "sha256": "1d78e429a24b942cd7a52f47901dee4ec9f5a45da0085ddbb3fd889c05d5aacb",
+          "sha1": "018e02c3481a985caddbe010b2630830ca247b07",
+          "md5": "7716bdbb6f27aaa3ee4b71e5f970ac39"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "com.appmattus.fixture",
+          "module": "fixture",
+          "version": {
+            "requires": "0.9.6"
+          }
+        },
+        {
+          "group": "com.github.mifmif",
+          "module": "generex",
+          "version": {
+            "requires": "1.0.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fixture-generex-0.9.6.jar",
+          "url": "fixture-generex-0.9.6.jar",
+          "size": 2330,
+          "sha512": "ddda9062ec85b48580bab1c8c2712032477eaeb7902a8396d0595fac1502f8b3e187865002722f821549e282bf842845cc7a64c9ce126ead61154b12720ef7ca",
+          "sha256": "1d78e429a24b942cd7a52f47901dee4ec9f5a45da0085ddbb3fd889c05d5aacb",
+          "sha1": "018e02c3481a985caddbe010b2630830ca247b07",
+          "md5": "7716bdbb6f27aaa3ee4b71e5f970ac39"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fixture-generex-0.9.6-sources.jar",
+          "url": "fixture-generex-0.9.6-sources.jar",
+          "size": 1754,
+          "sha512": "b9dcbd68f0cec8035f987f1d3ae0a13ce6864c8bf0435dcd15f31296e43347d684ea334b2fda43e90b91d8d5c8ccf5dd319170730dec84df292a2bbcc68cdb5f",
+          "sha256": "ef1b5a6d7957a662cd32c3293ffa1c4dbb4de20ad74e2b02beda2a88183af8e1",
+          "sha1": "a8b39263080a97bde901c2309302331efbf0ecca",
+          "md5": "555603985d0069b058abc27d77d99f05"
+        }
+      ]
+    }
+  ]
+}
